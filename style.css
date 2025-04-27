@@ -1,5 +1,71 @@
 body{
     background-color: rgb(245, 244, 185);
+    overflow: hidden;
+}
+header{
+    
+    width:100%;
+    text-align: center;
+    padding:2% 0;
+    >ul a{
+        font-size: 30px;
+        text-decoration: none;
+        color: blue;
+        padding:25px;
+        font-family: rekalgera;
+    }
+    >ul{
+        list-style-type:none;
+        display:flex;
+    }
+}
+i{
+    color: rgb(12, 12, 165);
+}
+.drop-down{
+    position: relative;
+    display:inline-block;
+    p{
+        font-size: 30px;
+        margin-top: 0%;
+        margin-right: 30px;
+        color: blue;
+    }
+}
+.read-book, .blogs{
+    background-color: rgb(156, 156, 221);
+    border-radius: 20px;
+    display:none;
+    position:absolute;
+    top:90%;
+    ul{
+        list-style-type: none;
+        padding:5px;
+    }
+    
+    li{
+        color: rgb(255,255,255);
+        font-family: rekalgera;
+        border-bottom:white 2px dotted;
+        margin: 0 2px;
+    }
+    a{
+        color: rgb(255,255,255);
+    }
+    a:hover{
+        color: rgb(25,25,25);
+    }
+}
+.read-book{
+    width:350px;
+    left:-100%;
+}
+.blogs{
+    width:280px;
+    left:-45%;
+}
+.drop-down:hover .read-book , .drop-down:hover .blogs{
+    display:block;
 }
 
 
@@ -15,22 +81,20 @@ body{
 }
 
 #book{
-    width: 120%;
-    height: 75%;
+    width: 100%;
+    height: 70%;
     box-shadow:  6px 6px 8px rgb(145, 150, 149), 10px 10px 16px yellow;
-    margin-left: 40%;
+    margin-left: -400%;
     border-radius: 0px 3px;
-    margin-top: 35%;
+    margin-top: 30%;
 }
 .review{
     line-height: 25px;
     height: 900px;
     width: 60%;
-    margin-right: 10%;
+    margin-left: -130%;
     position: static;
     overflow: scroll;
-    
-    
 
 }
 .review h1{
@@ -48,7 +112,7 @@ body{
 
 }
 .quote p{
-    color: blueviolet;
+    color: rgb(243, 91, 91);
 }
 #up-quote{
     padding-top: 10%;
@@ -72,6 +136,73 @@ body{
     body{
         background-color: rgb(245, 244, 185);
     }
+    header{
+    
+        width:100%;
+        text-align: center;
+        padding:2% 0;
+        margin-right: 20%;
+        >ul a{
+            font-size: 15px;
+            text-decoration: none;
+            color: blue;
+            padding:25px;
+            font-family: rekalgera;
+        }
+        >ul{
+            list-style-type:none;
+            display:flex;
+        }
+    }
+    i{
+        color: rgb(12, 12, 165);
+    }
+    .drop-down{
+        position: relative;
+        display:inline-block;
+        p{
+            font-size: 15px;
+            margin-top: 0%;
+            margin-right: 10px;
+            color: blue;
+        }
+    }
+    .read-book, .blogs{
+        background-color: rgb(156, 156, 221);
+        border-radius: 20px;
+        display:none;
+        position:absolute;
+        top:90%;
+        ul{
+            list-style-type: none;
+            padding:5px;
+        }
+        
+        li{
+            color: rgb(255,255,255);
+            font-family: rekalgera;
+            border-bottom:white 2px dotted;
+            margin: 0 2px;
+        }
+        a{
+            color: rgb(255,255,255);
+        }
+        a:hover{
+            color: rgb(25,25,25);
+        }
+    }
+    .read-book{
+        width:350px;
+        left:-100%;
+    }
+    .blogs{
+        width:280px;
+        left:-45%;
+    }
+    .drop-down:hover .read-book , .drop-down:hover .blogs{
+        display:block;
+    }
+    
     
     .container{
         flex-direction: column;
@@ -146,6 +277,72 @@ body{
     body{
         background-color: rgb(245, 244, 185);
     }
+    header{
+    
+        width:100%;
+        text-align: center;
+        padding:2% 0;
+        >ul a{
+            font-size: 40px;
+            text-decoration: none;
+            color: blue;
+            padding:25px;
+            font-family: rekalgera;
+        }
+        >ul{
+            list-style-type:none;
+            display:flex;
+        }
+    }
+    i{
+        color: rgb(12, 12, 165);
+    }
+    .drop-down{
+        position: relative;
+        display:inline-block;
+        p{
+            font-size: 20px;
+            margin-top: 0%;
+            margin-right: 30px;
+            color: blue;
+        }
+    }
+    .read-book, .blogs{
+        background-color: rgb(156, 156, 221);
+        border-radius: 20px;
+        display:none;
+        position:absolute;
+        top:90%;
+        ul{
+            list-style-type: none;
+            padding:5px;
+        }
+        
+        li{
+            color: rgb(255,255,255);
+            font-family: rekalgera;
+            border-bottom:white 2px dotted;
+            margin: 0 2px;
+        }
+        a{
+            color: rgb(255,255,255);
+        }
+        a:hover{
+            color: rgb(25,25,25);
+        }
+    }
+    .read-book{
+        width:350px;
+        left:-100%;
+    }
+    .blogs{
+        width:280px;
+        left:-45%;
+    }
+    .drop-down:hover .read-book , .drop-down:hover .blogs{
+        display:block;
+    }
+    
     
     .container{
         display: flex;
@@ -159,12 +356,12 @@ body{
     }
     
     #book{
-        width: 140%;
+        width: 150%;
         height: 75%;
         box-shadow:  6px 6px 8px rgb(145, 150, 149), 10px 10px 16px yellow;
         margin-left: 30%;
         border-radius: 0px 3px;
-        margin-top: 50%;
+        margin-top: 30%;
     }
     .review{
         line-height: 30px;
