@@ -4,74 +4,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book Review</title>
+    <title>Born a crime </title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/a92003ad01.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4ea4f48bde.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-    <div class="container">
-        <header>                
-            <ul>
-                <li><a href="https://the-page-turners.netlify.app/index.html"><i class="fa-solid fa-house-laptop"></i> Home</a></li>
-                <li><a href="https://the-page-turners.netlify.app/about.html"><i class="fa-solid fa-circle-info"></i> About</a></li>
-                <li>
-                    <div class="drop-down">
-                        <p><i class="fa-solid fa-book"></i> Read</a></p>
-                        <div class="read-book">
-                            <ul>
-                                <li><a href="https://www.readingsanctuary.com/wp-content/uploads/2023/04/born-a-crime.pdf">Born A Crime</a></li>
-                                <li><a href="https://ati.dae.gov.in/ati12052021_7.pdf">Who Moved My Cheese</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="drop-down">
-                        <p><i class="fa-solid fa-address-card"></i> Blog</p>
-                        <div class="blogs">
-                            <ul>
-                                <li><a href="https://elizabethbarongo.github.io/BornACrime-Blog/">Elizabeth</a></li>
-                                <li><a href="https://hewan-review.netlify.app/">Hewan</a></li>
-                                <li><a href="https://nebyathhailu.github.io/lovelace-projects/Blog/index.html">Nebyat</a></li>
-                                <li><a href="https://born-a-crime-review.netlify.app/">Saloi</a></li>
-                            </ul>    
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </header>
-        
-        <div class="trevor">
-            <img src="Images/trevor.jpg" id="book" alt="Born a crime by Trevor Noah">
+    <div class="front">
+        <div class="front-img">
+            <a href="https://www.readingsanctuary.com/wp-content/uploads/2023/04/born-a-crime.pdf"> <img
+                    src="Images/trevor.jpg" alt=""></a>
         </div>
 
-        <div class="review">
-            <h1> Born Between Two Worlds</h1>
-            <p> • The title born between two worlds captures Trevor Noah’s experience growing up between the worlds of
-                black and and white in apartheid South Africa.. As a child of a black mother and white father his
-                existence
-                was illegal ,making him caught between racial and societal boundaries. The new title is a reflection of
-                his
-                identity struggles, sense of not fully belonging to one group and the complexities of growing up in a
-                divided country.</p>
-    
-            
-            <div class="quote">
-                <i class="fa-solid fa-quote-left" id="up-quote"></i> <p><I>Abel wanted a traditional marriage with a traditional wife … ‘He only wants a woman who is free
+        <div class="front-txt">
+            <h1>WELCOME TO MY BLOG!</h1>
+        </div>
+
+        <button id="home">Home</button>
+    </div>
+
+    <div class="worlds">
+        <h1>Born Between Two Worlds</h1>
+        <p>The title born between two worlds captures Trevor Noah’s experience growing up between the worlds of
+            black and and white in apartheid South Africa.. As a child of a black mother and white father his
+            existence was illegal ,making him caught between racial and societal boundaries. The new title is a
+            reflection of his identity struggles, sense of not fully belonging to one group and the complexities
+            of growing up in a divided country.</p>
+    </div>
+    <div class="meaning">
+        <div class="quote">
+            <i class="fa-solid fa-quote-left" id="up-quote"></i>
+            <p>A<I>bel wanted a traditional marriage with a traditional wife … ‘He only wants a woman who is free
                     because his dream is to put her in a cage.’</I></p>
-                    <i class="fa-solid fa-quote-right" id="down-quote"></i>
-            </div>
-            <p> • The quote reveals a desire for control masked as love. It reflects how some
-                men admire a strong and independent women but feel threatened by that strength and seek to dominate it.
-            </p>
+            <i class="fa-solid fa-quote-right" id="down-quote"></i>
+        </div>
+        <div class="def">
+            <p>The quote reveals a desire for control masked as love. It reflects how some men admire a strong and
+                independent women but feel
+                threatened by that strength and seek to dominate it.</p>
 
             <p> In today’s society this contradiction still exists. Many modern relationships begin with mutual
-                admiration and equality,
-                yet underlying gender expectations can still shape behavior. Some men are drawn to confident, ambitious
-                women but later feel
-                insecure by their independence. This often leads to control, ,limit or reshape their partner into a more
+                admiration and equality, yet
+                underlying gender expectations can still shape behavior. Some men are drawn to confident, ambitious
+                women but later feel insecure
+                by their independence. This often leads to control, ,limit or reshape their partner into a more
                 “traditional” mold.</p>
 
             <p>A real life example of this contradiction is when a woman in a relationship is discouraged from pursuing
@@ -81,16 +58,26 @@
                 men are expected to lead and for women to follow.</p>
 
             <p>The quote also raises a big question: Do some people pursue relationships not for partnership but for
-                power? True love should empower and
-                support not dominate.</p>
+                power? True love should empower
+                and support not dominate.</p>
 
             <p>In healthy relationships today equality and respect are key. While traditional roles may still work for
-                some , they must be freely chosen not
-                forced. The quote is challenging us to reflect whether we love people for who they are or for how well
-                they fit our image of control.
-            </p>
+                some , they must be freely
+                chosen not forced. The quote is challenging us to reflect whether we love people for who they are or for
+                how well they fit our image
+                of control.</p>
         </div>
     </div>
+
+    <footer>
+        <p>Give your insights down below:</p>
+
+        <label for="insight">Your insights:</label><br><br>
+        <input type="text" id="insight" name="insight"  value="comment..."> <br><br>
+        <input type="submit" id="submit" value="Submit"> <br><br>
+        <p id="copyright">&copy;copyright@2025</p>
+    </footer>
+
 
 </body>
 
