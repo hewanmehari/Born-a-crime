@@ -105,13 +105,21 @@ button {
     font-size: 32px;
     border-radius: 55px;
     background-color: hsla(180, 30%, 76%, 0.5);
+
+    a{
+        text-decoration: none;
+        color: #b1c5d8;
+    }
+    
     
 }
 
 button:hover {
-    background-color: hsla(0, 24%, 90%,0.7);
-    color: #2f4356;
+    background-color: hsla(0, 14%, 47%, 0.7);
+    color:#b1c5d8;
+    
 }
+
 
 .worlds {
     margin-top: 6%;
