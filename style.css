@@ -11,6 +11,9 @@ body {
 
 
 }
+#source{
+    text-decoration: none;
+}
 
 @keyframes fadeInUp {
     from {
@@ -80,6 +83,11 @@ body {
     height: 130%;
     width: 100%;
     transition: transform 0.2s ease; 
+
+    p{
+        margin-top: 5%;
+        font-size: 15px;
+    }
 
 }
 .front:hover .front-img img{
@@ -251,4 +259,212 @@ footer {
 #copyright{
     margin-left: -90%;
     font-size: 20px;
+}
+
+@media(max-width: 768px){
+   
+    body {
+        margin: auto;
+    }
+    
+    .front {
+        display: flex;
+        background-image: linear-gradient(rgba(5, 5, 7, 0.5), rgba(20, 29, 19, 5)), url(Images/library.jpg);
+        background-size: cover;
+        height: 40vh;
+       
+    
+    
+    }
+    #source{
+        text-decoration: none;
+    }
+
+    .front-img img {
+        border: solid 4px rgb(62, 152, 194);
+        padding: 10px 10px 10px 10px;
+        margin-top: 55%;
+        margin-left: 3%;
+        height: 105%;
+        width: 70%;
+        transition: transform 0.2s ease; 
+    
+        p{
+            margin-top: 5%;
+            font-size: 15px;
+        }
+    
+    }
+    .front:hover .front-img img{
+        transform: scale(1.1);
+    }
+    
+    .front-txt {
+        background-color: none;
+        color: rgb(207, 228, 207);
+        margin-top: 25%;
+        margin-left: -5%;
+        font-size: 20px;
+    
+    
+    }
+    
+    button {
+        margin-top: 40%;
+        margin-left: -48%;
+    
+        height: 15%;
+        width: 15%;
+        font-size: 20px;
+        border-radius: 55px;
+        background-color: hsla(180, 30%, 76%, 0.5);
+    
+        a{
+            text-decoration: none;
+            color: #e8ebee;
+        }
+    
+        i{
+            color: #e8ebee;
+        }
+        
+        
+    }
+    
+    button:hover {
+        background-color: hsla(0, 24%, 90%,0.7);
+        
+    }
+    
+    
+    .worlds {
+        margin-top: 6%;
+        margin-left: 40%;
+        line-height: 190%;
+        box-shadow: 2px 2px 2px rgb(109, 165, 206);
+        padding-bottom: 3%;
+        animation: fadeInScale 0.8s ease-out 1.2s forwards;
+    
+        h1 {
+            font-size: 35px;
+            color: #2f4356;
+        }
+    
+        p {
+            font-size: 20px;
+        }
+    }
+    
+    .meaning {
+        margin-top: 10%;
+        display: flex;
+        gap: 3%;
+        animation: fadeInScale 0.8s ease-out 1.2s forwards;
+    
+    }
+    
+    .quote {
+        background-color: #b1c5d8;
+        border-radius: 15px;
+        padding-top: 0%;
+        padding-bottom: 0%;
+        margin-left: 3%;
+        margin-bottom: 10%;
+        width: 150%;
+        border: solid 1px gray;
+        box-shadow: 6px 6px 8px 2px rgb(145, 150, 149), 10px 10px 16px gray;
+        animation: fadeInScale 0.8s ease-out 1.2s forwards;
+    
+    }
+    
+    .quote p {
+    
+        margin-left: 5%;
+        font-size: 20px;
+    }
+    
+    #up-quote {
+        margin-top: 12%;
+        font-size: 20px;
+        color: rgb(36, 36, 4);
+        margin-left: 2%;
+    
+    
+    }
+    
+    #down-quote {
+        font-size: 20px;
+        margin-left: 85%;
+        color: rgb(36, 36, 4);
+    
+    
+    
+    }
+    
+    
+    .def {
+        box-shadow: 2px 3px rgb(109, 165, 206);
+        margin-bottom: 2%;
+        font-size: 20px;
+        animation: fadeInScale 0.8s ease-out 1.2s forwards;
+    
+    }
+    
+    footer {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Images/lc-bg.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 1%;
+        font-size: 25px;
+        justify-items: center;
+        background-color: hsla(0, 0%, 0%, 0.7);
+        color: white;
+        
+    
+        p{
+            font-size:20px;
+            color:#b1c5d8;
+        }
+    
+        label{
+            color:#b1c5d8;
+            margin-left: -20%;
+        
+        }
+        input{
+            padding: 20px 20px 20px 20px;
+            width: 180%;
+            height: 60%;
+            margin-left: -20%;
+            font-size: 15px;
+            border-radius: 5px;
+        }
+    #insight{
+        font-size: 15px;
+    }
+        
+       
+    
+        
+    }
+    #submit{
+        width: 70%;
+        height: 30%;
+        margin-left: 28%;
+        border-radius: 30px;
+        background-color: #b1c5d8;
+        padding: 10px 10px 10px 10px;
+    }
+    #submit:hover{
+        background-color: beige;
+        color: rgb(23, 137, 202);
+        
+    }
+    #copyright{
+        margin-left: 0%;
+        font-size: 20px;
+    }
+    
+    
 }
